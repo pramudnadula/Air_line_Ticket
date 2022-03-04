@@ -1,0 +1,94 @@
+.form1 {
+    position: relative;
+    left: 120px;
+    top: 30px;
+}
+
+.form2 {
+    position: absolute;
+    left: 550px;
+    top: 250px;
+}
+
+.form3 {
+    position: relative;
+    left: 120px;
+    top: 30px;
+}
+
+.form {
+    background-color: white;
+    padding: 20px;
+    margin: 100px;
+    height: 700px;
+    border-radius: 5px;
+    box-shadow: 3px black;
+    ;
+}
+
+.submit {
+    position: relative;
+    left: 120px;
+    top: 40px;
+}
+
+#from {
+    border-color: chartreuse;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    font-weight: 300;
+}
+
+#datefrom {
+    border-color: chartreuse;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    font-weight: 300;
+}
+
+#to {
+    border-color: chartreuse;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    font-weight: 300;
+}
+
+#dateto {
+    border-color: chartreuse;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    font-weight: 300;
+}
+
+#cabinclass {
+    border-color: chartreuse;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+}
+
+#txtarea {
+    border-color: chartreuse;
+    border-radius: 10px;
+    height: 90px;
+    width: 750px;
+}
+
+#submitb {
+    border-color: chartreuse;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    background-color: chartreuse;
+}
+
+#numofpass {
+    border-color: chartreuse;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+}

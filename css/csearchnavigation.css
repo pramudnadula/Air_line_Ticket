@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.search {
+    padding-top: 20px;
+    padding-right: 10px;
+    float: right;
+    transition: ease .25s
+}
+
+div.search input[type=newtext] {
+    padding: 6px;
+    font-size: 15px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+div.search button {
+    float: left;
+    width: 20%;
+    padding: 6px;
+    background: #111;
+    color: white;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+div.search button:hover {
+    background: #0b7dda;
+}
+
+div.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}

@@ -1,0 +1,74 @@
+div.my input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+div.my input[type=submit] {
+    position: center;
+    width: 50%;
+    background-color: skyblue;
+    color: black;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div.my input[type=submit]:hover {
+    background-color: lightblue;
+}
+
+div.my {
+    border-radius: 5px;
+    background-color: #f2f2f2c4;
+    padding: 10px 40px;
+    margin: 50px 50px 00px 50px;
+}
+
+.h1 {
+    text-align: justify;
+}
+
+table.masterlist {
+    background-color: rgba(190, 233, 147, 0.418);
+    margin: 12px 10px 15px 12px;
+    width: 98%;
+    border-collapse: inherit;
+}
+
+table.masterlist th {
+    vertical-align: initial;
+    background: #aaa;
+    text-align: left;
+}
+
+table.masterlist th,
+table.masterlist td {
+    /* vertical-align: 15px; */
+    padding: 10px;
+    border-bottom: 3px solid #aaa;
+}
+
+div.my a {
+    text-decoration: none;
+    position: center;
+    width: 50%;
+    background-color: rgb(238, 3, 3);
+    color: black;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div.my a:hover {
+    color: #fff;
+    background-color: #860c0c;
+    border-color: #700606;
+}

@@ -1,0 +1,13 @@
+h1#new {
+    font-family: cursive, sans-seri;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(22, 92, 119);
+}
+
+#video {
+    position: relative;
+    height: auto;
+    width: 1000px;
+}

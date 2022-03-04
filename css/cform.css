@@ -1,0 +1,15 @@
+.form {
+    position: static;
+    top: 20%;
+    left: 50%;
+    margin: 70px auto 20px;
+    border-radius: 10px;
+    transform: translate ( -50%, -50%);
+    width: 90%;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.555);
+    box-shadow: 0 5px 15pc rgb(0, 0, 0, .5);
+    display: flex;
+}

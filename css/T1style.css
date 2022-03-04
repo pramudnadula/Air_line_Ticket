@@ -1,0 +1,239 @@
+body{
+	background-image:url("../image/blue-background2.jpg");
+	background-size: cover;
+	background-repeat:no repeat;
+	
+}
+.logout
+{ 
+	margin: 10px;
+	float: right ;
+  padding: 15px 20px;
+  font-size: 13px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+}
+.logout:hover {background-color: #8B0000}
+
+.log
+{ 
+	margin: 11px;
+	float: right ;
+  padding: 15px 15px;
+  font-size: 13px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+   background: linear-gradient(to top left, #00ff99 -6%, #33cc33 102%);
+  border: none;
+  border-radius: 10px;
+}
+.log:hover {background-color: #3e8e41}
+
+/*Logo margin and font sizes*/
+  .box {
+	display: inline-block;
+	vertical-align: top;
+	width: 90px;
+	height: 60px;
+	margin: 5px;
+	padding-top: 8px;
+	padding-left: 8px;
+  }
+  .content {
+	display: inline-block;
+	vertical-align: top;
+  }
+  .title, .sub-title {
+	margin: 0;
+	padding: 3px 15px 3px 0;
+  }
+  .title {
+	font-size: 25px;
+
+	
+	color: #ffffff;
+	font-family:verdana
+  }
+  .sub-title {
+	font-weight: bold;
+	color: #dfd9d9;
+	font-family:courier
+  }
+
+
+  .line {
+	padding-bottom:900px;
+	 border-bottom: 5px solid rgb(0, 0, 0);
+	 }
+	 
+	 
+#account{
+	width:300px;
+	margin:40px;
+	height:350px;
+	left:150px;
+	position:absolute;
+	background-color: white;
+	text-align:bottom;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}	 
+
+#account1{
+	width:780px;
+	margin:40px;
+	height:350px;
+	left:480px;
+	position:absolute;
+	background-color: white;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	
+}	
+
+#ha{
+	
+	width:300px;
+	height:150px;
+	padding:20px;
+	text-align:center;
+	 background: linear-gradient(to top left, #00ff99 -6%, #33cc33 102%);
+	font-size:40px;
+	color:white;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+} 
+
+#h10{
+	
+	font-size:30px;
+	padding:20px;
+}
+#a10{
+	color:gray;
+	position:relative;
+	left:12px;
+	font-size:18px;
+	padding:8px;
+}
+
+#account2{
+	width:1110px;
+	margin:40px;
+	height:420px;
+	top:480px;
+	left:150px;
+	position:absolute;
+	background-color: white;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#inputbox{
+	
+	color:white;
+	background-color:gray;
+	top:50px;
+	border-radius:4px;
+	margin:30px;
+	position :absolute;
+	padding :10px;
+	font-size:15px;
+	width:250px;
+	
+}	
+#inputbox1{
+
+	top:100px;
+	border-radius:4px;
+	margin:30px;
+	position :absolute;
+	padding :10px;
+	font-size:15px;
+	width:250px;
+}	
+#inputbox2{
+
+	top:150px;
+	border-radius:4px;
+	margin:30px;
+	position :absolute;
+	padding :10px;
+	width:250px;
+	font-size:15px;
+}	
+#inputbox3{
+
+	top:200px;
+	border-radius:4px;
+	margin:30px;
+	width:250px;
+	position :absolute;
+	padding :10px;
+	font-size:15px;
+}	
+#inputbox4{
+
+	top:250px;
+	border-radius:4px;
+	margin:30px;
+	width:250px;
+	position :absolute;
+	padding :10px;
+	font-size:15px;
+}	
+#inputbox5{
+
+	top:300px;
+	border-radius:4px;
+	margin:30px;
+	width:250px;
+	position :absolute;
+	padding :10px;
+	font-size:15px;
+}	
+
+#btn{
+	top:300px;
+	position:absolute;
+	margin:30px;
+	left:260px;
+	padding:10px;
+	border-radius:5px;
+	background-color:#4CAF50;
+	cursor:pointer;
+	
+	}
+#delete{
+	position:relative;
+	top:290px;
+	
+	float:right;
+	margin:8px;
+	padding:8px;
+	border-radius:4px;
+	background-color:red;
+	color:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor:pointer;
+}
+#qte{
+	padding:40px;
+	font-size:20px;
+	color:gray;
+}

@@ -1,0 +1,142 @@
+                                                                        {
+                                                                            box-sizing: border-box;
+                                                                        }
+                                                                        
+                                                                        .column {
+                                                                            float: left;
+                                                                            width: 33.33%;
+                                                                            padding: 10px;
+                                                                            height: 250px;
+                                                                        }
+                                                                        
+                                                                        .row:after {
+                                                                            content: "";
+                                                                            display: table;
+                                                                            clear: both;
+                                                                        }
+                                                                        
+                                                                        h3#off {
+                                                                            font-style: italic;
+                                                                            font-size: 32px;
+                                                                        }
+                                                                        
+                                                                        h2#header {
+                                                                            font-weight: bold;
+                                                                            font-style: italic;
+                                                                            font-size: 32px;
+                                                                        }
+                                                                        
+                                                                        h1#offer {
+                                                                            text-align: center;
+                                                                            font-style: italic;
+                                                                            text-transform: uppercase;
+                                                                            color: #008CBA;
+                                                                        }
+                                                                        
+                                                                        p#off {
+                                                                            text-indent: 50px;
+                                                                            font-style: italic;
+                                                                            text-align: center;
+                                                                            letter-spacing: 1px;
+                                                                        }
+                                                                        
+                                                                        a {
+                                                                            text-decoration: none;
+                                                                            color: #008CBA;
+                                                                        }
+                                                                        
+                                                                        .pi {
+                                                                            text-align: center;
+                                                                        }
+                                                                        
+                                                                        body {
+                                                                            font-family: Arial, Helvetica, sans-serif;
+                                                                        }
+                                                                        
+                                                                        * {
+                                                                            box-sizing: border-box;
+                                                                        }
+                                                                        
+                                                                        .form-inline {
+                                                                            display: flex;
+                                                                            flex-flow: row wrap;
+                                                                            align-items: center;
+                                                                        }
+                                                                        
+                                                                        .form-inline label {
+                                                                            margin: 5px 10px 5px 0;
+                                                                        }
+                                                                        
+                                                                        .form-inline input {
+                                                                            vertical-align: middle;
+                                                                            margin: 5px 10px 5px 0;
+                                                                            padding: 10px;
+                                                                            background-color: #fff;
+                                                                            border: 1px solid #ddd;
+                                                                        }
+                                                                        
+                                                                        .form-inline button {
+                                                                            padding: 10px 20px;
+                                                                            background-color: dodgerblue;
+                                                                            border: 1px solid #ddd;
+                                                                            color: white;
+                                                                            cursor: pointer;
+                                                                        }
+                                                                        
+                                                                        .form-inline button:hover {
+                                                                            background-color: royalblue;
+                                                                        }
+                                                                        
+                                                                        @media (max-width: 800px) {
+                                                                            .form-inline input {
+                                                                                margin: 10px 0;
+                                                                            }
+                                                                            .form-inline {
+                                                                                flex-direction: column;
+                                                                                align-items: stretch;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        .left {
+                                                                            margin-left: 300px;
+                                                                        }
+                                                                        
+                                                                        .right {
+                                                                            position: absolute;
+                                                                            left: 300px;
+                                                                        }
+                                                                        
+                                                                        .center {
+                                                                            position: absolute;
+                                                                            left: 800px;
+                                                                        }
+                                                                        
+                                                                        #submit {
+                                                                            padding: 10px;
+                                                                            background-color: gray;
+                                                                            border-radius: 8px;
+                                                                        }
+                                                                        
+                                                                        #submit:hover {
+                                                                            background-color: lightgray;
+                                                                            cursor: pointer;
+                                                                        }
+                                                                        
+                                                                        #picup {
+                                                                            font-style: italic;
+                                                                            color: rgb(48, 21, 122);
+                                                                        }
+                                                                        
+                                                                        #drop {
+                                                                            font-style: italic;
+                                                                            color: rgb(48, 21, 122);
+                                                                        }
+                                                                        
+                                                                        #pas {
+                                                                            font-style: italic;
+                                                                            color: rgb(48, 21, 122);
+                                                                        }
+                                                                        
+                                                                        #pass {
+                                                                            padding: 50px;
+                                                                        }

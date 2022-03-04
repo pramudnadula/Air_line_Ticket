@@ -1,0 +1,15 @@
+.condition-section {
+    background-color: antiquewhite;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.condition-section h2 {
+    margin: 20px;
+}
+
+.condition-section p {
+    display: none;
+}

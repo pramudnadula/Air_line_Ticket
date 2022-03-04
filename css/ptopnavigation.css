@@ -1,0 +1,31 @@
+/* Navigation bar*/
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: ease-in .25s;
+    text-align: center;
+}
+
+li.menu {
+    float: right;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+
+li a:hover:not(.navigation) {
+    color: gray;
+}
+
+li a.navigation {
+    color: #999999;
+}

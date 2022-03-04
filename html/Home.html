@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Airline Ticket Reservation</title>
+    <!--Link Stylessheets-->
+    <link rel="stylesheet" type="text/css" href="../css/tstyles.css">
+    <link rel="stylesheet" type="text/css" href="../css/ttopnavigation.css">
+    <link rel="stylesheet" type="text/css" href="../css/tsearchnavigation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/theader.css">
+    <link rel="stylesheet" type="text/css" href="../css/twallpaper.css">
+    <link rel="stylesheet" href="../css/tanimation.css">
+    <link rel="stylesheet" href="../css/tboxes.css">
+    <link rel="stylesheet" href="../css/tbox.css">
+    <link rel="stylesheet" href="../css/tpopup.css">
+    <link rel="stylesheet" type="text/css" href="../css/tbottomnavigation1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h1 id="ph1">Offers & Promotions</h1>
+            <p id="pp1">Enjoy travel and tourism packages, deals, discounts, family packages, travel packages, holiday vacations and more right here on ACE Airline ticket reservation website. Everything travel all under one website.</p>
+
+            <div class="box01"><img src="../image/u2.jpg" alt="Paris" class="img1"></div>
+            <div class="box01"><img src="../image/u3.jpg" alt="Paris" class="img1"></div>
+            <div class="box01"><img src="../image/u1.jpg" alt="Paris" class="img1"></div>
+            <div class="box01"><img src="../image/u3.jpg" alt="Paris" class="img1"></div>
+            <div class="box01"><img src="../image/u1.jpg" alt="Paris" class="img1"></div>
+            <div class="box01"><img src="../image/u2.jpg" alt="Paris" class="img1"></div>
+            <div class="box01"><img src="../image/u3.jpg" alt="Paris" class="img1"></div>
+            <div class="box01"><img src="../image/u3.jpg" alt="Paris" class="img1"></div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <div class="header">
+        <!-- Header/Logo Title -->
+        <!-- Logo and left side font -->
+        <div class="box">
+            <a href="logo.html"><img src="../image/Logo3.png" width="280" height="70" alt="Ace Logo"></a>
+
+        </div>
+
+
+        <div class="log" onclick="document.location='http://localhost:8081/Air_line/php/TLOGIN.php'">Login / Register </div>
+
+
+
+
+
+        <!--Top Navigation bar-->
+        <ul class="menu">
+            <li class="menu"><a onclick="document.location='http://localhost:8081/Air_line/php/hindex.php'">Contact Us</a></li>
+            <li class="menu"><a href="support.html">Support</a></li>
+            <li class="menu"><a href="news.html">News</a></li>
+            <li class="menu"><a onclick="document.location='http://localhost:8081/Air_line/php/kindex.php'">Airlines</a></li>
+            <li class="menu"><a onclick="document.location='http://localhost:8081/Air_line/php/pview.php'">My Booking</a></li>
+            <li class="menu"><a onclick="document.location='http://localhost:8081/Air_line/php/pindex.php'">Book Ticket</a></li>
+            <li class="menu"><a class="navigation" href="home.html">Home</a></li>
+        </ul>
+    </div>
+
+
+
+    <div class="container">
+        <span class="text1">book your ticket</span>
+        <span class="text2">NOW !!</span>
+        <a onclick="document.location='http://localhost:8081/Air_line/php/pindex.php'"><button class="button">Book now</button></a>
+
+    </div>
+
+    <div class="container2">
+
+        <label class="label1">Destination</label>
+        <label class="label2">Date</label>
+        <label class="label3">Passenger</label>
+        <label class="label4">Cabin Class</label>
+        <div class="frombox">
+
+            <label class="from">From</label>
+            <input type="text" id="ffrom" name="from" placeholder="leaving from">
+        </div>
+
+        <div class="frombox1">
+            <label class="to">To</label>
+            <input type="text" id="fto" name="to" placeholder="going to">
+        </div>
+
+        <div class="date">
+            <label for="birthday">Check-In:</label>
+            <input type="date" id="date1" name="Check-In">
+
+        </div>
+
+        <div class="adults">
+            <label for="adults1">Adults</label>
+            <select name="adults" id="adults">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				</select>
+
+
+        </div>
+        <div class="cclass">
+            <label for="cclass1">Class</label>
+            <select name="cclass" id="cclass">
+				<option value="1">First class</option>
+				<option value="2">Business class</option>
+				<option value="3">Economy class</option>
+				
+				</select>
+
+
+        </div>
+
+        <div class="children">
+            <label for="children">Children</label>
+            <select name="children" id="children">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				</select>
+
+
+
+        </div>
+        <a onclick="document.location='http://localhost:8081/Air_line/php/pindex.php'"><input type="submit" value="Search now" id="submit"></a>
+    </div>
+
+
+    <div class="container3">
+        <div class="box3">
+            <br></br>
+            <h1 id="h1">Flight Booking with ACE </h1>
+            <br></br>
+            <p>We have all experienced the tedious, endless searching to find cheap flights online. The procedure of comparing fares and looking for preferred airlines on different platforms and apps is quite time-consuming and tiresome. So, to help you
+                save time and most importantly money, this website is all you need. ACE, a proficient travel website in India is undoubtedly the best for destination search and tour planning. So, for booking a flight ticket choose this site. On this platform,
+                a traveller has access to the best information like booking a flight (international or domestic). The easy-to-use app and website make it a great experience for travellers to select their preferred airline for the journey and also to book
+                cheap flight tickets with a simple tap or click of a button. How to book a flight ticket on ACE?<span id="dots">...</span><span id="more">
+You can compare flight fares from several airlines all at one place to get the cheapest flight tickets with just one click.Current flight booking offers by ACE:
+Domestic Flights	| Save Upto ₹1500 on Flight Bookings: Coupon Code: INSTANT.
+International Flights	| Save Upto ₹1500 on Flight Bookings: Coupon Code: INSTANT.
+All Flight Booking	| Get vouchers worth ₹4000 On Flight Ticket Bookings: Coupon Code: HEALTH. </span></p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+            <script src="../js/T1more.js"></script>
+        </div>
+
+
+        <div class="box4">
+
+
+
+
+            <span class="header5">Offers in store for you</span>
+            <br></br>
+            <span class="header6">View all live offers for flights</span>
+
+            <div class="box01"><img src="../image/t1.jpg" alt="Paris" class="img1"></div>
+            <div class="box01"><img src="../image/t2.jpg" alt="Paris" class="img1"></div>
+            <div class="box01"><img src="../image/t3.jpg" alt="Paris" class="img1"></div>
+
+
+
+            <button id="button8" onclick="togglePopup()">More offers</button>
+            <script src="../js/T1popup.js"></script>
+        </div>
+
+
+    </div>
+    </div>
+
+
+
+    <div class="container1">
+        <div class="box">
+            <img src="../image/taxi1.jpg" alt="Paris" class="img1">
+            <span class="header1">Texi service</span>
+            <p class="p1"> Airport Taxi Cab Hire Rate Price. All types of vehicle are Air Conditioned. To save your time and our time mentioned prices</p>
+        </div>
+        <div class="box">
+            <img src="../image/news.png" alt="Paris" class="img1">
+            <span class="header1">News</span>
+            <p class="p1"> Breaking news, innovation and trends in the Airport Industry. For even more in-depth Aviation coverage subscribe to Skift Airline Weekly.</p>
+        </div>
+        <div class="box">
+            <img src="../image/support.jpg" alt="Paris" class="img1">
+            <span class="header1">Support</span>
+            <p class="p1">Customer service · Call centre · Help desk · Live support software · E-procurement · Purchase-to-pay · v · t · e. A travel website </p>
+        </div>
+        <div class="box">
+            <img src="../image/24h.jpg" alt="Paris" class="img1">
+            <span class="header1">24 hours service</span>
+            <p class="p1"> 4 Hour Customer Service Hotline +94 (0) 712755777 or dial 1717 from any network in Sri Lanka. For Sinhala : Press1. For Tamil : Press2. For English : Press3.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container4">
+        <span id="title2">WHY BOOK WITH US ?</span>
+        <span id="title1"><br></br>Our services</span>
+    </div>
+    </div>
+
+
+
+    <!--line bottom-->
+    <h1 class="line"></h1>
+
+    <div class="vision">
+        <p> <a>.<a/></p>
+</div>
+   	  
+  <div class="bottom-icon">
+   
+	<ul>
+		<li><a href="https://www.facebook.com/" target="black"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/login" target="black"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.google.com/" target="black"><i class="fa fa-google"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="black"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="black"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+    </div>
+
+
+
+
+
+    <!--Bottom Navigation bar-->
+    <div class="bottom-footer">
+        <div class="bottom-nav">
+            <ul>
+                <li><a class="bottomnavigation" href="Home.html">Home</a></li>
+                <li><a href="pprivacy.html">Privacy</a></li>
+                <li><a href="teams.html">Terms & Conditions</a></li>
+                <li><a href="../php/hindex.php#">Contact Us</a></li>
+            </ul>
+        </div>
+
+
+        <div class="footer-end">
+            <p> <a href="https://www.sliit.lk/">COPYRIGHT COMPANY © 2020 : ALL RIGHT RESERVED</a></p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

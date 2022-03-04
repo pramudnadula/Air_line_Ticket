@@ -1,0 +1,193 @@
+* {
+	
+    box-sizing: border-box;
+	
+}
+#address1
+{
+	font-family:arial;
+	position:relative;
+	height:90px;
+	background-color: #ece7e7;
+	font-size: 20px;
+	width:400px;
+	left : 20px;
+	padding-left:15px;
+	padding-top:5px;
+	border: none;
+    outline: none;
+    box-shadow: 15px 15px 25px #a8a8a8;
+}
+.form input {
+	
+    min-width: 400px;
+    display: block;
+    margin: 20px;
+    padding: 15px 20px;
+    background-color: #ece7e7;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 15px 15px 25px #a8a8a8;
+  
+}
+
+.form input:focus {
+    box-shadow: 5px 5px 15px #a8a8a8;
+}
+
+.form .btn {
+
+    margin: auto;
+    padding: 10px 35px;
+    background-color: #f1a566;
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 20px #a8a8a8;
+    outline: none;
+	cursor:pointer;
+}
+
+.form .btn:hover {
+    box-shadow: 5px 5px 15px #aaa;
+}
+
+.form {
+	
+	
+	position: absolute;
+	left: 220px;
+	top: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+}
+
+.left-section .form {
+	
+    float: left;
+    margin:  auto;
+	
+}
+
+.right-section .form {
+    float: right;
+   left:750px;
+    right: 0;
+}
+
+.cover .switch-btn {
+	
+    position: absolute;
+    top:350px;
+	left: 1000px;
+    font-size: 25px;
+    margin: 30px;
+    padding: 10px 55px;
+    background-color: #f1a566;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 15px 15px 25px #a8a8a8;
+    transition: box-shadow 0.5s;
+    outline: none;
+	cursor:pointer;
+}
+
+.cover .switch-btn:hover {
+    box-shadow: 5px 5px 15px #aaa;
+}
+
+
+
+
+.left-section .cover h1 {
+text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+	 left:300px;
+    top: 250px;
+    color: #fff;
+    font-size: 50px;
+}
+
+.left-section .cover h3 {
+	text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+	left:200px;
+    top: 320px;
+    color: #fff;
+    font-size: 35px;
+}
+
+.left-section .cover .switch-btn{
+    position: absolute;
+	left:290px;
+    top: 350px;
+    color: #fff;
+    font-size: 35px;
+}
+
+
+
+.left-section .cover-hide {
+    visibility: hidden;
+}
+
+.left-section .form-hide {
+    visibility: hidden;
+}
+
+.right-section .cover {
+	
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.right-section .cover h1 {
+	text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+	right:230px;
+    top: 250px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.right-section .cover h3 {
+	text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+	right:160px;
+    top:320px;
+    color: #fff;
+    font-size:35px;
+}
+
+.right-section .cover-hide {
+    visibility: hidden;
+}
+
+.right-section .form-hide {
+    visibility: hidden;
+}
+
+.fade-in-element {
+    animation-name: fade-in-element;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in-element {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} 
